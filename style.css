@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.debug header {
+  height: 100px;
+  background-color: #e579e6;
+}
+
+.debug .pretium {
+  height: 500px;
+  background-color: #e1d67a;
+}
+
+.debug .leadership {
+  height: 50px;
+  background-color: #abcfe7;
+}
+
+.debug .paragrafi {
+  height: 600px;
+  background-color: #0086ff;
+}
+
+.debug .left-par, .middle-par,
+.right-par {
+  background-color: #abcfe7;
+
+}
+
+.debug footer {
+  height: 60px;
+  background-color: #8801fe;
+}
+
+body {
+  margin: auto;
+  /* height: 950px; */
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  /*  height: 100px; */
+  margin-top: 1rem;
+}
+
+.logo {
+  height: 50px;
+  margin: 0.5rem;
+}
+
+.site-nav {
+  margin: 0.5rem;
+}
+
+.site-nav > a {
+  color: #afafaf;
+  text-decoration: none;
+  margin-right: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+main {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* .pretium {
+  
+}
+ */
+.leadership {
+  /* height: 50px; */
+  margin-top: 1rem;
+}
+.paragrafi {
+  /* height: 400px; */
+  /* background-color: #0086ff; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.left-par,
+.middle-par,
+.right-par {
+  float: left;
+  height: 100%;
+}
+
+.left-par,
+.right-par {
+  width: 25%;
+}
+
+/* .left-par,
+.middle-par {
+  margin-right: 2%;
+} */
+
+.middle-par {
+  width: 47%;
+  margin: 0 1.5%;
+}
+
+footer {
+  /* height: 40px; */
+  margin-bottom: 1rem;
+}
