@@ -6,7 +6,6 @@
 
 .debug header {
   height: 100px;
-  background-color: #e579e6;
 }
 
 .debug .pretium {
@@ -75,10 +74,35 @@ main {
   clear: both;
 }
 
-/* .pretium {
-  
+.pretium {
+  /* height: 300px; */
+  width: 100%;
+  background-image: url("./img/banner.jpg");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  background-blend-mode: darken;
+  /* opacity: 0.5; */
 }
- */
+
+.testo {
+  color: white;
+  padding-left: 3rem;
+  padding-top: 22rem;
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.8rem;
+}
+
+.sub-title {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
 .leadership {
   /* height: 50px; */
   margin-top: 1rem;
